@@ -1,0 +1,353 @@
+[
+  {
+    "number": 11,
+    "question": "Which of the following is NOT an example of the shift-left approach?",
+    "your_answer": "b",
+    "correct_answer": "d",
+    "options": {
+      "a": "Reviewing the user requirements before they are formally accepted by the stakeholders ",
+      "b": "Writing a component test before the corresponding code is written ",
+      "c": "Executing a performance efficiency test for a component during component testing ",
+      "d": "Writing a test script before setting up the configuration management process \nSelect ONE option."
+    },
+    "section": "2.1.5"
+  },
+  {
+    "number": 22,
+    "question": "Your favorite bicycle daily rental store has just introduced a new Customer Relationship \nManagement system and asked you, one of their most loyal members, to test it. \nThe implemented features are as follows: \n• \nAnyone can rent a bicycle, but members receive a 20% discount \n• \nHowever, if the return deadline is missed, the discount is no longer available \n• \nAfter 15 rentals, members get a gift: a T-Shirt \nDecision table describing the implemented features looks as follows: \nConditions \nR1 \nR2 \nR3 \nR4 \nR5 \nR6 \nR7 \nR8 \nBeing a member \nT \nT \nT \nT \nF \nF \nF \nF \nMissed deadline \nT \nF \nT \nF \nT \nF \nF \nT \n15th rental \nF \nF \nT \nT \nF \nF \nT \nT \nActions \n \n \n \n \n \n \n \n \n20% discount \n \nX \n \nX \n \n \n \n \nGift T-Shirt \n \n \nX \nX \n \n \n \nX \n \nBased ONLY on the feature description of the Customer Relationship Management system, which \nof the above rules describes an impossible situation?",
+    "your_answer": "a",
+    "correct_answer": "d",
+    "options": {
+      "a": "R4 ",
+      "b": "R2 ",
+      "c": "R6 ",
+      "d": "R8 \nSelect ONE option."
+    },
+    "section": "4.2.3"
+  },
+  {
+    "number": 35,
+    "question": "During a risk analysis the following risk was identified and assessed: \n• \nRisk: Response time is too long to generate a report \n• \nRisk likelihood: medium; risk impact: high \n• \nResponse to risk: \no An independent test team performs performance efficiency testing during system \ntesting \no A selected sample of end users performs alpha testing and beta testing before the \nrelease \nWhat measure is proposed to be taken in response to this analyzed risk?",
+    "your_answer": "d",
+    "correct_answer": "c",
+    "options": {
+      "a": "Risk acceptance ",
+      "b": "Contingency plan ",
+      "c": "Risk mitigation ",
+      "d": "Risk transfer \nSelect ONE option. \n \n \n\nCertified Tester, Foundation Level \nSample Exams set A  \nSample Exam – Questions \n \nVersion 1.7 \nPage 21 of 31 \nRelease April 1, 2025 \n© International Software Testing Qualifications Board"
+    },
+    "section": "5.2.4"
+  },
+  {
+    "number": 5,
+    "question": "Which of the following factors have a SIGNIFICANT influence on the test approach? \n \ni. \nThe SDLC \nii. \nThe number of defects detected in previous projects \niii. \nThe identified product risks \niv. \nNew regulatory requirements forcing formal white-box testing \nv. \nThe test environment setup",
+    "your_answer": "d",
+    "correct_answer": "b",
+    "options": {
+      "a": "i, ii have significant influence ",
+      "b": "i, iii, iv have significant influence ",
+      "c": "ii, iv, v have significant influence ",
+      "d": "iii, v have significant influence \nSelect ONE option."
+    },
+    "section": "1.4.2"
+  },
+  {
+    "number": 30,
+    "question": "How do testers add value to iteration and release planning?",
+    "your_answer": "d",
+    "correct_answer": "c",
+    "options": {
+      "a": "Testers determine the priority of the user stories to be developed ",
+      "b": "Testers focus only on the functional aspects of the system to be tested ",
+      "c": "Testers participate in the detailed risk identification and risk assessment of user stories  ",
+      "d": "Testers guarantee the release of high-quality software through early test design during the \nrelease planning \nSelect ONE option. \n\nCertified Tester, Foundation Level \nSample Exams set A  \nSample Exam – Questions \n \nVersion 1.7 \nPage 19 of 31 \nRelease April 1, 2025 \n© International Software Testing Qualifications Board"
+    },
+    "section": "5.1.2"
+  },
+  {
+    "number": 10,
+    "question": "Which of the following statements BEST describes the acceptance test-driven development (ATDD) \napproach?",
+    "your_answer": "d",
+    "correct_answer": "c",
+    "options": {
+      "a": "In ATDD, acceptance criteria are typically created based on the given/when/then format ",
+      "b": "In ATDD, test cases are mainly created at component testing and are code-oriented ",
+      "c": "In ATDD, tests are created, based on acceptance criteria to drive the development of the \nrelated software ",
+      "d": "in ATDD, tests are based on the desired behavior of the software, which makes it easier for \nteam members to understand them \nSelect ONE option."
+    },
+    "section": "2.1.3"
+  },
+  {
+    "number": 7,
+    "question": "Which of the following skills (i-v) are the MOST important skills of a tester? \n \ni. \nHaving domain knowledge \nii. \nCreating a product vision \niii. \nBeing a good team player \niv. \nPlanning and organizing the work of the team \nv. \nCritical thinking",
+    "your_answer": "d",
+    "correct_answer": "b",
+    "options": {
+      "a": "ii and iv are important ",
+      "b": "i, iii and v are important ",
+      "c": "i, ii and v are important ",
+      "d": "iii and iv are important \nSelect ONE option."
+    },
+    "section": "1.5.1"
+  },
+  {
+    "number": 23,
+    "question": "You test a system whose lifecycle is modeled by the state transition diagram shown below. The \nsystem starts in the INIT state and ends its operation in the OFF state. \n \n \nWhat is the MINIMAL number of test cases to achieve valid transitions coverage?",
+    "your_answer": "a",
+    "correct_answer": "d",
+    "options": {
+      "a": "4 ",
+      "b": "2 ",
+      "c": "7 ",
+      "d": "3 \nSelect ONE option. \n\nCertified Tester, Foundation Level \nSample Exams set A  \nSample Exam – Questions \n \nVersion 1.7 \nPage 17 of 31 \nRelease April 1, 2025 \n© International Software Testing Qualifications Board"
+    },
+    "section": "4.2.4"
+  },
+  {
+    "number": 9,
+    "question": "Consider the following rule: “for every SDLC activity there is a corresponding test activity”. In which \nSDLC models does this rule hold?",
+    "your_answer": "a",
+    "correct_answer": "d",
+    "options": {
+      "a": "Only in sequential development models ",
+      "b": "Only in iterative development models ",
+      "c": "Only in iterative and incremental development models ",
+      "d": "In sequential, incremental, and iterative development models \nSelect ONE option. \n \n \n\nCertified Tester, Foundation Level \nSample Exams set A  \nSample Exam – Questions \n \nVersion 1.7 \nPage 11 of 31 \nRelease April 1, 2025 \n© International Software Testing Qualifications Board"
+    },
+    "section": "2.1.2"
+  },
+  {
+    "number": 40,
+    "question": "Which item correctly identifies a potential risk of performing test automation?",
+    "your_answer": "a",
+    "correct_answer": "b",
+    "options": {
+      "a": "Impediments to testing ",
+      "b": "Branch coverage achieved ",
+      "c": "Test progress ",
+      "d": "New risks within the test cycle \n \nSelect ONE option."
+    },
+    "section": "6.2.1"
+  },
+  {
+    "number": 20,
+    "question": "You are testing a simplified apartment search form which has only two search criteria: \n• \nfloor (with three possible options: ground floor; first floor; second or higher floor) \n• \ngarden type (with three possible options: no garden; small garden; large garden) \nEach of the apartment on the ground floor has a garden, apartments on higher floors don’t. The form \nhas a built-in validation mechanism that will not allow you to use the search criteria which violate this \nrule. \n \nEach test has two input values: floor and garden type. You want to apply equivalence partitioning \n(EP) to cover each floor and each garden type in your tests. \n \nWhat is the minimal number of test cases to achieve 100% EP coverage for valid partitions?",
+    "your_answer": "a",
+    "correct_answer": "b",
+    "options": {
+      "a": "3 ",
+      "b": "4 ",
+      "c": "5 ",
+      "d": "6 \nSelect ONE option \n \n \n\nCertified Tester, Foundation Level \nSample Exams set A  \nSample Exam – Questions \n \nVersion 1.7 \nPage 15 of 31 \nRelease April 1, 2025 \n© International Software Testing Qualifications Board"
+    },
+    "section": "4.2.1"
+  },
+  {
+    "number": 39,
+    "question": "Which test activity does a data preparation tool support?",
+    "your_answer": "a",
+    "correct_answer": "c",
+    "options": {
+      "a": "Test monitoring and test control ",
+      "b": "Test analysis  ",
+      "c": "Test design and test implementation  ",
+      "d": "Test completion \nSelect ONE option."
+    },
+    "section": "6.1.1"
+  },
+  {
+    "number": 8,
+    "question": "How is the whole team approach present in the interactions between testers and business \nrepresentatives?",
+    "your_answer": "a",
+    "correct_answer": "d",
+    "options": {
+      "a": "Business representatives decide on test automation approaches ",
+      "b": "Testers help business representatives to define a test strategy ",
+      "c": "Business representatives are not part of the whole team approach ",
+      "d": "Testers help business representatives to create suitable acceptance tests \nSelect ONE option."
+    },
+    "section": "1.5.2"
+  },
+  {
+    "number": 4,
+    "question": "You work in a team that develops a mobile application for food ordering. In the current iteration the \nteam decided to implement the payment functionality. \nWhich of the following activities is a part of test analysis?",
+    "your_answer": "a",
+    "correct_answer": "b",
+    "options": {
+      "a": "Estimating that testing the integration with the payment service will take 8 person-days ",
+      "b": "Deciding that the team should test if it is possible to properly share payment between many \nusers ",
+      "c": "Using boundary value analysis (BVA) to derive the test data for the test cases that check \nthe correct payment processing for the minimum allowed amount to be paid ",
+      "d": "Analyzing the discrepancy between the actual result and expected result after executing a \ntest case that checks the process of payment with a credit card, and reporting a defect \nSelect ONE option."
+    },
+    "section": "1.4.1"
+  },
+  {
+    "number": 13,
+    "question": "Which types of failures (1-4) fit which test levels (A-D) BEST? \n \n1. Failures in system behavior as it deviates from the user’s business needs \n2. Failures in communication between components \n3. Failures in logic in the code \n4. Failures in not correctly implemented business rules \n \nA. Component testing \nB. Component integration testing \nC. System testing \nD. Acceptance testing",
+    "your_answer": "d",
+    "correct_answer": "a",
+    "options": {
+      "a": "1D, 2B, 3A, 4C ",
+      "b": "1D, 2B, 3C, 4A ",
+      "c": "1B, 2A, 3D, 4C ",
+      "d": "1C, 2B, 3A, 4D \nSelect ONE option."
+    },
+    "section": "2.2.1"
+  },
+  {
+    "number": 33,
+    "question": "You are testing a mobile application that allows users to find a nearby restaurant based on the type \nof food they want to eat. Consider the following list of test cases, priorities (i.e., a smaller number \nmeans a higher priority), and dependencies: \n \nTest case \nnumber \nTest condition covered \nPriority \nLogical \ndependency \nTC 001 \nSelect type of food \n3 \nnone \nTC 002 \nSelect restaurant \n2 \nTC 001 \nTC 003 \nGet direction \n1 \nTC 002 \nTC 004 \nCall restaurant \n2 \nTC 002 \nTC 005 \nMake reservation \n3 \nTC 002 \nWhich of the following test cases should be executed as the third one?",
+    "your_answer": "d",
+    "correct_answer": "a",
+    "options": {
+      "a": "TC 003 ",
+      "b": "TC 005 ",
+      "c": "TC 002 ",
+      "d": "TC 001 \nSelect ONE option. \n\nCertified Tester, Foundation Level \nSample Exams set A  \nSample Exam – Questions \n \nVersion 1.7 \nPage 20 of 31 \nRelease April 1, 2025 \n© International Software Testing Qualifications Board"
+    },
+    "section": "5.1.5"
+  },
+  {
+    "number": 38,
+    "question": "You received the following defect report from the developers stating that the anomaly described in \nthis test report is not reproducible. \nApplication hangs up  \n2022-May-03 – John Doe – Rejected \nThe application hangs up after entering “Test input: $ä” in the Name field on the new \nuser creation screen. Tried to log off, log in with test_admin01 account, same issue. Tried \nwith other test admin accounts, same issue. No error message received; log (see \nattached) contains fatal error notification. Based on the test case TC-1305, the \napplication should accept the provided input and create the user. Please fix with high \npriority, this feature is related to REQ-0012, which is a critical new business requirement. \nWhat critical information is MISSING from this test report that would have been useful for the \ndevelopers?",
+    "your_answer": "a",
+    "correct_answer": "c",
+    "options": {
+      "d": "Priority and severity \nSelect ONE option. \n \n \n\nCertified Tester, Foundation Level \nSample Exams set A  \nSample Exam – Questions \n \nVersion 1.7 \nPage 22 of 31 \nRelease April 1, 2025 \n© International Software Testing Qualifications Board",
+      "a": "Expected result and actual result ",
+      "b": "References and defect status ",
+      "c": "Test environment and test item "
+    },
+    "section": "5.5.1"
+  },
+  {
+    "number": 16,
+    "question": "Which of the following is a benefit of early and frequent feedback?",
+    "your_answer": "a",
+    "correct_answer": "d",
+    "options": {
+      "a": "It improves the test process for future projects ",
+      "b": "It forces customers to prioritize their requirements based on agreed risks ",
+      "c": "It  provides a measure for the quality of changes ",
+      "d": "It helps avoid requirements misunderstandings \nSelect ONE option."
+    },
+    "section": "3.2.1"
+  },
+  {
+    "number": 18,
+    "question": "Which of these statements is NOT a factor that contributes to successful reviews?",
+    "your_answer": "c",
+    "correct_answer": "d",
+    "options": {
+      "a": "Participants should dedicate adequate time for the review ",
+      "b": "Splitting large work products into small parts to make the required effort less intense ",
+      "c": "Participants should avoid behaviors that might indicate boredom, exasperation, or hostility to \nother participants ",
+      "d": "Failures found should be acknowledged, appreciated, and handled objectively \nSelect ONE option. \n \n\nCertified Tester, Foundation Level \nSample Exams set A  \nSample Exam – Questions \n \nVersion 1.7 \nPage 14 of 31 \nRelease April 1, 2025 \n© International Software Testing Qualifications Board"
+    },
+    "section": "3.2.5"
+  },
+  {
+    "number": 14,
+    "question": "You are testing a user story with three acceptance criteria: AC1, AC2 and AC3. AC1 is covered by \ntest case TC1, AC2 by TC2, and AC3 by TC3. The test execution history had three test runs on three \nconsecutive versions of the software as follows:  \n \nExecution 1 \nExecution 2 \nExecution 3 \nTC1 \n(1) Failed \n(4) Passed \n(7) Passed \nTC2 \n(2) Passed \n(5) Failed \n(8) Passed \nTC3 \n(3) Failed \n(6) Failed \n(9) Passed \n  \nTests are repeated once you are informed that all defects found in the test run are corrected and \na new version of the software is available. \nWhich of the above tests are executed as regression tests?",
+    "your_answer": "c",
+    "correct_answer": "b",
+    "options": {
+      "a": "Only 4, 7, 8, 9 ",
+      "b": "Only 5, 7 ",
+      "c": "Only 4, 6, 8, 9 ",
+      "d": "Only 5, 6 \nSelect ONE option. \n \n \n\nCertified Tester, Foundation Level \nSample Exams set A  \nSample Exam – Questions \n \nVersion 1.7 \nPage 13 of 31 \nRelease April 1, 2025 \n© International Software Testing Qualifications Board"
+    },
+    "section": "2.2.3"
+  },
+  {
+    "number": 3,
+    "question": "You have been assigned as a tester to a team producing a new system incrementally. You have \nnoticed that no changes have been made to the existing regression test cases for several iterations \nand no new regression defects were identified. Your manager is happy, but you are not. Which \ntesting principle explains your skepticism?",
+    "your_answer": "c",
+    "correct_answer": "a",
+    "options": {
+      "a": "Tests wear out ",
+      "b": "Absence-of-defects fallacy ",
+      "c": "Defects cluster together ",
+      "d": "Exhaustive testing is impossible \nSelect ONE option. \n \n\nCertified Tester, Foundation Level \nSample Exams set A  \nSample Exam – Questions \n \nVersion 1.7 \nPage 9 of 31 \nRelease April 1, 2025 \n© International Software Testing Qualifications Board"
+    },
+    "section": "1.3.1"
+  },
+  {
+    "number": 25,
+    "question": "Which of the following is NOT true for white-box testing?",
+    "your_answer": "c",
+    "correct_answer": "d",
+    "options": {
+      "a": "During white-box testing the entire software implementation is considered ",
+      "b": "White-box coverage metrics can help identify additional tests to increase code coverage ",
+      "c": "White-box test techniques can be used in static testing  ",
+      "d": "White-box testing can help identify gaps in requirements implementation \nSelect ONE option."
+    },
+    "section": "4.3.3"
+  },
+  {
+    "number": 32,
+    "question": "Your team uses the three-point estimation technique to estimate the test effort for a new high-risk \nfeature. The following estimates were made: \n• \nMost optimistic estimation: 2 person-hours \n• \nMost likely estimation: 11 person-hours \n• \nMost pessimistic estimation: 14 person-hours \nWhat is the final estimate?",
+    "your_answer": "c",
+    "correct_answer": "d",
+    "options": {
+      "a": "9 person-hours ",
+      "b": "14 person-hours ",
+      "c": "11 person-hours ",
+      "d": "10 person-hours \nSelect ONE option."
+    },
+    "section": "5.1.4"
+  },
+  {
+    "number": 17,
+    "question": "The reviews being used in your organization have the following attributes:  \n• \nThere is the role of a scribe \n• \nThe main purpose is to evaluate quality \n• \nThe meeting is led by the author of the work product \n• \nThere is individual preparation \n• \nA review report is produced \nWhich of the following review types is MOST likely being used?",
+    "your_answer": "c",
+    "correct_answer": "b",
+    "options": {
+      "a": "Informal review ",
+      "b": "Walkthrough ",
+      "c": "Technical review ",
+      "d": "Inspection \nSelect ONE option."
+    },
+    "section": "3.2.4"
+  },
+  {
+    "number": 28,
+    "question": "Which of the following BEST describes the way acceptance criteria can be documented?",
+    "your_answer": "d",
+    "correct_answer": "b",
+    "options": {
+      "a": "Performing retrospectives to determine the actual needs of the stakeholders regarding a \ngiven user story ",
+      "b": "Using the given/when/then format to describe an example test condition related to a given \nuser story ",
+      "c": "Using verbal communication to reduce the risk of misunderstanding the acceptance criteria \nby others ",
+      "d": "Documenting risks related to a given user story in a test plan to facilitate the risk-based \ntesting of a given user story \n \nSelect ONE option."
+    },
+    "section": "4.5.2"
+  },
+  {
+    "number": 36,
+    "question": "Which work product can be used by an agile team to show the amount of work that has been \ncompleted and the amount of total work remaining for a given iteration?",
+    "your_answer": "a",
+    "correct_answer": "d",
+    "options": {
+      "a": "Acceptance criteria ",
+      "b": "Defect report ",
+      "c": "Test completion report ",
+      "d": "Burndown chart \n \nSelect ONE option."
+    },
+    "section": "5.3.3"
+  },
+  {
+    "number": 27,
+    "question": "In your project there has been a delay in the release of a brand-new application and test execution \nstarted late, but you have very detailed domain knowledge and good analytical skills. The full list of \nrequirements has not yet been shared with the team, but management is asking for some test results \nto be presented. \n \nWhich test technique fits BEST in this situation?",
+    "your_answer": "b",
+    "correct_answer": "c",
+    "options": {
+      "a": "Checklist-based testing ",
+      "b": "Error guessing ",
+      "c": "Exploratory testing ",
+      "d": "Branch testing \nSelect ONE option. \n \n\nCertified Tester, Foundation Level \nSample Exams set A  \nSample Exam – Questions \n \nVersion 1.7 \nPage 18 of 31 \nRelease April 1, 2025 \n© International Software Testing Qualifications Board"
+    },
+    "section": "4.4.2"
+  }
+]

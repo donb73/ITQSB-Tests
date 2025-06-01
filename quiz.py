@@ -28,7 +28,8 @@ def run_quiz(questions):
                 "question": q['question'],
                 "your_answer": user_answer,
                 "correct_answer": correct,
-                "options": q['options']
+                "options": q['options'],
+                "section": q.get("section", "N/A")  # <- this is key
             })
 
     print(f"\n🎯 Final Score: {score}/{len(questions)}")
@@ -47,3 +48,16 @@ def save_wrong_answers(wrong_answers):
 if __name__ == "__main__":
     questions = load_questions("questions.json")
     run_quiz(questions)
+
+from reportlab.lib.pagesizes import LETTER
+from reportlab.pdfgen import canvas
+from reportlab.lib.utils import simpleSplit
+
+def save_wrong_answers_pdf(wrong_answers, filename="wrong_answers_report.pdf"):
+    if not wrong_answers:
+        return
+
+    c = canvas.Canvas(filename, pagesize=LETTER)
+    width, height = LETTER
+    margin = 50
+    y = height - margin

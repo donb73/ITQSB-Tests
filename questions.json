@@ -8,7 +8,8 @@
       "c": "To reduce the risk level of the test object and to build confidence in the quality level ",
       "d": "To verify that there are no untested combinations of inputs \nSelect ONE option."
     },
-    "answer": "a"
+    "answer": "c",
+    "section": "1.1.1"
   },
   {
     "number": 2,
@@ -19,7 +20,8 @@
       "c": "Testers collaborating with end users help to improve the quality of defect reports during \ncomponent integration and system testing ",
       "d": "Certified testers will design much better test cases than non-certified testers \nSelect ONE option."
     },
-    "answer": "d"
+    "answer": "a",
+    "section": "1.2.1"
   },
   {
     "number": 3,
@@ -30,7 +32,8 @@
       "c": "Defects cluster together ",
       "d": "Exhaustive testing is impossible \nSelect ONE option. \n \n\nCertified Tester, Foundation Level \nSample Exams set A  \nSample Exam – Questions \n \nVersion 1.7 \nPage 9 of 31 \nRelease April 1, 2025 \n© International Software Testing Qualifications Board"
     },
-    "answer": "d"
+    "answer": "a",
+    "section": "1.3.1"
   },
   {
     "number": 4,
@@ -41,7 +44,8 @@
       "c": "Using boundary value analysis (BVA) to derive the test data for the test cases that check \nthe correct payment processing for the minimum allowed amount to be paid ",
       "d": "Analyzing the discrepancy between the actual result and expected result after executing a \ntest case that checks the process of payment with a credit card, and reporting a defect \nSelect ONE option."
     },
-    "answer": "d"
+    "answer": "b",
+    "section": "1.4.1"
   },
   {
     "number": 5,
@@ -52,7 +56,8 @@
       "c": "ii, iv, v have significant influence ",
       "d": "iii, v have significant influence \nSelect ONE option."
     },
-    "answer": "c"
+    "answer": "b",
+    "section": "1.4.2"
   },
   {
     "number": 6,
@@ -63,7 +68,8 @@
       "c": "Design solutions to new requirements ",
       "d": "Create the test plan \ne) Analyze the test basis  \nSelect TWO options. \n \n \n\nCertified Tester, Foundation Level \nSample Exams set A  \nSample Exam – Questions \n \nVersion 1.7 \nPage 10 of 31 \nRelease April 1, 2025 \n© International Software Testing Qualifications Board"
     },
-    "answer": "d"
+    "answer": "a,e",
+    "section": "1.4.5"
   },
   {
     "number": 7,
@@ -74,10 +80,8 @@
       "c": "i, ii and v are important ",
       "d": "iii and iv are important \nSelect ONE option."
     },
-    "answer": [
-      "b",
-      "c"
-    ]
+    "answer": "b",
+    "section": "1.5.1"
   },
   {
     "number": 8,
@@ -88,7 +92,8 @@
       "c": "Business representatives are not part of the whole team approach ",
       "d": "Testers help business representatives to create suitable acceptance tests \nSelect ONE option."
     },
-    "answer": "d"
+    "answer": "d",
+    "section": "1.5.2"
   },
   {
     "number": 9,
@@ -99,7 +104,8 @@
       "c": "Only in iterative and incremental development models ",
       "d": "In sequential, incremental, and iterative development models \nSelect ONE option. \n \n \n\nCertified Tester, Foundation Level \nSample Exams set A  \nSample Exam – Questions \n \nVersion 1.7 \nPage 11 of 31 \nRelease April 1, 2025 \n© International Software Testing Qualifications Board"
     },
-    "answer": "b"
+    "answer": "d",
+    "section": "2.1.2"
   },
   {
     "number": 10,
@@ -110,7 +116,8 @@
       "c": "In ATDD, tests are created, based on acceptance criteria to drive the development of the \nrelated software ",
       "d": "in ATDD, tests are based on the desired behavior of the software, which makes it easier for \nteam members to understand them \nSelect ONE option."
     },
-    "answer": "a"
+    "answer": "c",
+    "section": "2.1.3"
   },
   {
     "number": 11,
@@ -121,7 +128,8 @@
       "c": "Executing a performance efficiency test for a component during component testing ",
       "d": "Writing a test script before setting up the configuration management process \nSelect ONE option."
     },
-    "answer": "c"
+    "answer": "d",
+    "section": "2.1.5"
   },
   {
     "number": 12,
@@ -132,7 +140,8 @@
       "c": "Process weaknesses identified during the retrospective can be analyzed and serve as a to \ndo list for the organization’s continuous process improvement program ",
       "d": "Retrospectives embrace five values including courage and respect, which are crucial to \nmaintain continuous improvement in the organization \nSelect ONE option. \n \n \n\nCertified Tester, Foundation Level \nSample Exams set A  \nSample Exam – Questions \n \nVersion 1.7 \nPage 12 of 31 \nRelease April 1, 2025 \n© International Software Testing Qualifications Board"
     },
-    "answer": "a"
+    "answer": "c",
+    "section": "2.1.6"
   },
   {
     "number": 13,
@@ -143,7 +152,8 @@
       "c": "1B, 2A, 3D, 4C ",
       "d": "1C, 2B, 3A, 4D \nSelect ONE option."
     },
-    "answer": "b"
+    "answer": "a",
+    "section": "2.2.1"
   },
   {
     "number": 14,
@@ -154,7 +164,8 @@
       "c": "Only 4, 6, 8, 9 ",
       "d": "Only 5, 6 \nSelect ONE option. \n \n \n\nCertified Tester, Foundation Level \nSample Exams set A  \nSample Exam – Questions \n \nVersion 1.7 \nPage 13 of 31 \nRelease April 1, 2025 \n© International Software Testing Qualifications Board"
     },
-    "answer": "b"
+    "answer": "b",
+    "section": "2.2.3"
   },
   {
     "number": 15,
@@ -165,7 +176,8 @@
       "c": "Finding coding defects that might not have been found by only performing dynamic testing ",
       "d": "Detecting gaps and inconsistencies in requirements \nSelect ONE option."
     },
-    "answer": "c"
+    "answer": "a",
+    "section": "3.1.2"
   },
   {
     "number": 16,
@@ -176,7 +188,8 @@
       "c": "It  provides a measure for the quality of changes ",
       "d": "It helps avoid requirements misunderstandings \nSelect ONE option."
     },
-    "answer": "d"
+    "answer": "d",
+    "section": "3.2.1"
   },
   {
     "number": 17,
@@ -187,7 +200,8 @@
       "c": "Technical review ",
       "d": "Inspection \nSelect ONE option."
     },
-    "answer": "c"
+    "answer": "b",
+    "section": "3.2.4"
   },
   {
     "number": 18,
@@ -198,7 +212,8 @@
       "c": "Participants should avoid behaviors that might indicate boredom, exasperation, or hostility to \nother participants ",
       "d": "Failures found should be acknowledged, appreciated, and handled objectively \nSelect ONE option. \n \n\nCertified Tester, Foundation Level \nSample Exams set A  \nSample Exam – Questions \n \nVersion 1.7 \nPage 14 of 31 \nRelease April 1, 2025 \n© International Software Testing Qualifications Board"
     },
-    "answer": "b"
+    "answer": "d",
+    "section": "3.2.5"
   },
   {
     "number": 19,
@@ -209,7 +224,8 @@
       "c": "The test techniques heavily rely on the tester’s knowledge of the software and the business \ndomain ",
       "d": "The test cases are used to identify deviations from the requirements \nSelect ONE option."
     },
-    "answer": "d"
+    "answer": "c",
+    "section": "4.1.1"
   },
   {
     "number": 20,
@@ -220,7 +236,8 @@
       "c": "5 ",
       "d": "6 \nSelect ONE option \n \n \n\nCertified Tester, Foundation Level \nSample Exams set A  \nSample Exam – Questions \n \nVersion 1.7 \nPage 15 of 31 \nRelease April 1, 2025 \n© International Software Testing Qualifications Board"
     },
-    "answer": "b"
+    "answer": "b",
+    "section": "4.2.1"
   },
   {
     "number": 21,
@@ -231,7 +248,8 @@
       "c": "33.3% ",
       "d": "100% \nSelect ONE option. \n \n\nCertified Tester, Foundation Level \nSample Exams set A  \nSample Exam – Questions \n \nVersion 1.7 \nPage 16 of 31 \nRelease April 1, 2025 \n© International Software Testing Qualifications Board"
     },
-    "answer": "a"
+    "answer": "a",
+    "section": "4.2.2"
   },
   {
     "number": 22,
@@ -242,7 +260,8 @@
       "c": "R6 ",
       "d": "R8 \nSelect ONE option."
     },
-    "answer": "c"
+    "answer": "d",
+    "section": "4.2.3"
   },
   {
     "number": 23,
@@ -253,7 +272,8 @@
       "c": "7 ",
       "d": "3 \nSelect ONE option. \n\nCertified Tester, Foundation Level \nSample Exams set A  \nSample Exam – Questions \n \nVersion 1.7 \nPage 17 of 31 \nRelease April 1, 2025 \n© International Software Testing Qualifications Board"
     },
-    "answer": "a"
+    "answer": "d",
+    "section": "4.2.4"
   },
   {
     "number": 24,
@@ -264,7 +284,8 @@
       "c": "Each path in the code has been executed at least once ",
       "d": "Every combination of input values has been tested at least once \nSelect ONE option."
     },
-    "answer": "d"
+    "answer": "a",
+    "section": "4.3.1"
   },
   {
     "number": 25,
@@ -275,10 +296,8 @@
       "c": "White-box test techniques can be used in static testing  ",
       "d": "White-box testing can help identify gaps in requirements implementation \nSelect ONE option."
     },
-    "answer": [
-      "a",
-      "d"
-    ]
+    "answer": "d",
+    "section": "4.3.3"
   },
   {
     "number": 26,
@@ -289,7 +308,8 @@
       "c": "Error guessing requires you to imagine that you are the user of the test object and to guess \nerrors the user could make interacting with it ",
       "d": "Error guessing requires you to rapidly duplicate the development task to identify the sort of \nerrors a developer might make \nSelect ONE option."
     },
-    "answer": "b"
+    "answer": "a",
+    "section": "4.4.1"
   },
   {
     "number": 27,
@@ -300,7 +320,8 @@
       "c": "Exploratory testing ",
       "d": "Branch testing \nSelect ONE option. \n \n\nCertified Tester, Foundation Level \nSample Exams set A  \nSample Exam – Questions \n \nVersion 1.7 \nPage 18 of 31 \nRelease April 1, 2025 \n© International Software Testing Qualifications Board"
     },
-    "answer": "c"
+    "answer": "c",
+    "section": "4.4.2"
   },
   {
     "number": 28,
@@ -311,7 +332,8 @@
       "c": "Using verbal communication to reduce the risk of misunderstanding the acceptance criteria \nby others ",
       "d": "Documenting risks related to a given user story in a test plan to facilitate the risk-based \ntesting of a given user story \n \nSelect ONE option."
     },
-    "answer": "b"
+    "answer": "b",
+    "section": "4.5.2"
   },
   {
     "number": 29,
@@ -322,7 +344,8 @@
       "c": "Test if the editor can schedule the edited content for publication ",
       "d": "Test if the editor can reassign to another editor to make updates \nSelect ONE option."
     },
-    "answer": "a"
+    "answer": "a",
+    "section": "4.5.3"
   },
   {
     "number": 30,
@@ -333,7 +356,8 @@
       "c": "Testers participate in the detailed risk identification and risk assessment of user stories  ",
       "d": "Testers guarantee the release of high-quality software through early test design during the \nrelease planning \nSelect ONE option. \n\nCertified Tester, Foundation Level \nSample Exams set A  \nSample Exam – Questions \n \nVersion 1.7 \nPage 19 of 31 \nRelease April 1, 2025 \n© International Software Testing Qualifications Board"
     },
-    "answer": "c"
+    "answer": "c",
+    "section": "5.1.2"
   },
   {
     "number": 31,
@@ -344,10 +368,8 @@
       "c": "Estimated defect density is reached ",
       "d": "Requirements are translated into given/when/then format \ne) Regression tests are automated \nSelect TWO options."
     },
-    "answer": [
-      "c",
-      "e"
-    ]
+    "answer": "c,e",
+    "section": "5.1.3"
   },
   {
     "number": 32,
@@ -358,7 +380,8 @@
       "c": "11 person-hours ",
       "d": "10 person-hours \nSelect ONE option."
     },
-    "answer": "d"
+    "answer": "d",
+    "section": "5.1.4"
   },
   {
     "number": 33,
@@ -369,7 +392,8 @@
       "c": "TC 002 ",
       "d": "TC 001 \nSelect ONE option. \n\nCertified Tester, Foundation Level \nSample Exams set A  \nSample Exam – Questions \n \nVersion 1.7 \nPage 20 of 31 \nRelease April 1, 2025 \n© International Software Testing Qualifications Board"
     },
-    "answer": "a"
+    "answer": "a",
+    "section": "5.1.5"
   },
   {
     "number": 34,
@@ -380,7 +404,8 @@
       "c": "1C, 2B, 3D, 4A ",
       "d": "1D, 2B, 3C, 4A \nSelect ONE option."
     },
-    "answer": "a"
+    "answer": "a",
+    "section": "5.1.7"
   },
   {
     "number": 35,
@@ -391,7 +416,8 @@
       "c": "Risk mitigation ",
       "d": "Risk transfer \nSelect ONE option. \n \n \n\nCertified Tester, Foundation Level \nSample Exams set A  \nSample Exam – Questions \n \nVersion 1.7 \nPage 21 of 31 \nRelease April 1, 2025 \n© International Software Testing Qualifications Board"
     },
-    "answer": "c"
+    "answer": "c",
+    "section": "5.2.4"
   },
   {
     "number": 36,
@@ -402,7 +428,8 @@
       "c": "Test completion report ",
       "d": "Burndown chart \n \nSelect ONE option."
     },
-    "answer": "d"
+    "answer": "d",
+    "section": "5.3.3"
   },
   {
     "number": 37,
@@ -413,7 +440,8 @@
       "c": "Configuration management ",
       "d": "Requirements engineering \nSelect ONE option."
     },
-    "answer": "c"
+    "answer": "c",
+    "section": "5.4.1"
   },
   {
     "number": 38,
@@ -424,7 +452,8 @@
       "b": "References and defect status ",
       "c": "Test environment and test item "
     },
-    "answer": "c"
+    "answer": "c",
+    "section": "5.5.1"
   },
   {
     "number": 39,
@@ -435,7 +464,8 @@
       "c": "Test design and test implementation  ",
       "d": "Test completion \nSelect ONE option."
     },
-    "answer": "c"
+    "answer": "c",
+    "section": "6.1.1"
   },
   {
     "number": 40,
@@ -446,6 +476,7 @@
       "c": "Test progress ",
       "d": "New risks within the test cycle \n \nSelect ONE option."
     },
-    "answer": "b"
+    "answer": "b",
+    "section": "6.2.1"
   }
 ]
