@@ -1,67 +1,132 @@
 {
   "1": {
+    "answer": "c",
+    "section": "1.1.1",
+    "set": "A"
+  },
+  "2": {
     "answer": "a",
-    "section": "1.1.2",
+    "section": "1.2.1",
+    "set": "A"
+  },
+  "3": {
+    "answer": "a",
+    "section": "1.3.1",
+    "set": "A"
+  },
+  "4": {
+    "answer": "b",
+    "section": "1.4.1",
+    "set": "A"
+  },
+  "5": {
+    "answer": "b",
+    "section": "1.4.2",
+    "set": "A"
+  },
+  "6": {
+    "answer": "a,e",
+    "section": "1.4.5",
+    "set": "A"
+  },
+  "7": {
+    "answer": "b",
+    "section": "1.5.1",
+    "set": "A"
+  },
+  "8": {
+    "answer": "d",
+    "section": "1.5.2",
+    "set": "A"
+  },
+  "9": {
+    "answer": "d",
+    "section": "2.1.2",
+    "set": "A"
+  },
+  "10": {
+    "answer": "c",
+    "section": "2.1.3",
+    "set": "A"
+  },
+  "11": {
+    "answer": "d",
+    "section": "2.1.5",
+    "set": "A"
+  },
+  "12": {
+    "answer": "c",
+    "section": "2.1.6",
+    "set": "A"
+  },
+  "13": {
+    "answer": "a",
+    "section": "2.2.1",
+    "set": "A"
+  },
+  "14": {
+    "answer": "b",
+    "section": "2.2.3",
+    "set": "A"
+  },
+  "15": {
+    "answer": "a",
+    "section": "3.1.2",
+    "set": "A"
+  },
+  "16": {
+    "answer": "d",
+    "section": "3.2.1",
+    "set": "A"
+  },
+  "17": {
+    "answer": "b",
+    "section": "3.2.4",
+    "set": "A"
+  },
+  "18": {
+    "answer": "d",
+    "section": "3.2.5",
+    "set": "A"
+  },
+  "19": {
+    "answer": "c",
+    "section": "4.1.1",
+    "set": "A"
+  },
+  "20": {
+    "answer": "b",
+    "section": "4.2.1",
     "set": "A"
   },
   "21": {
     "answer": "a",
-    "section": "5.1.6",
-    "set": "A"
-  },
-  "2": {
-    "answer": "d",
-    "section": "1.2.2",
+    "section": "4.2.2",
     "set": "A"
   },
   "22": {
-    "answer": "c",
-    "section": "5.2.1",
-    "set": "A"
-  },
-  "3": {
     "answer": "d",
-    "section": "1.2.3",
+    "section": "4.2.3",
     "set": "A"
   },
   "23": {
-    "answer": "a",
-    "section": "5.2.2",
-    "set": "A"
-  },
-  "4": {
     "answer": "d",
-    "section": "1.4.3",
+    "section": "4.2.4",
     "set": "A"
   },
   "24": {
-    "answer": "d",
-    "section": "5.2.3",
-    "set": "A"
-  },
-  "5": {
-    "answer": "c",
-    "section": "1.4.4",
+    "answer": "a",
+    "section": "4.3.1",
     "set": "A"
   },
   "25": {
-    "answer": "a,d",
-    "section": "5.3.1",
-    "set": "A"
-  },
-  "6": {
     "answer": "d",
-    "section": "1.5.3",
+    "section": "4.3.3",
     "set": "A"
   },
   "26": {
-    "answer": "b",
-    "section": "5.3.2",
-    "set": "A"
-  },
-  "7": {
-    "answer": "b,c",
-    "section": "2.1.1",
+    "answer": "a",
+    "section": "4.4.1",
     "set": "A"
   },
   "27": {
@@ -69,19 +134,9 @@
     "section": "4.4.2",
     "set": "A"
   },
-  "8": {
-    "answer": "c",
-    "section": "2.1.4",
-    "set": "A"
-  },
   "28": {
     "answer": "b",
     "section": "4.5.2",
-    "set": "A"
-  },
-  "9": {
-    "answer": "b",
-    "section": "2.2.2",
     "set": "A"
   },
   "29": {
@@ -89,19 +144,9 @@
     "section": "4.5.3",
     "set": "A"
   },
-  "10": {
-    "answer": "a",
-    "section": "2.3.1",
-    "set": "A"
-  },
   "30": {
     "answer": "c",
     "section": "5.1.2",
-    "set": "A"
-  },
-  "11": {
-    "answer": "c",
-    "section": "3.1.1",
     "set": "A"
   },
   "31": {
@@ -109,19 +154,9 @@
     "section": "5.1.3",
     "set": "A"
   },
-  "12": {
-    "answer": "d",
-    "section": "3.1.3",
-    "set": "A"
-  },
   "32": {
     "answer": "d",
     "section": "5.1.4",
-    "set": "A"
-  },
-  "13": {
-    "answer": "b",
-    "section": "3.2.2",
     "set": "A"
   },
   "33": {
@@ -129,19 +164,9 @@
     "section": "5.1.5",
     "set": "A"
   },
-  "14": {
-    "answer": "b",
-    "section": "3.2.3",
-    "set": "A"
-  },
   "34": {
     "answer": "a",
     "section": "5.1.7",
-    "set": "A"
-  },
-  "15": {
-    "answer": "c",
-    "section": "4.2.2",
     "set": "A"
   },
   "35": {
@@ -149,19 +174,9 @@
     "section": "5.2.4",
     "set": "A"
   },
-  "16": {
-    "answer": "d",
-    "section": "4.3.2",
-    "set": "A"
-  },
   "36": {
     "answer": "d",
     "section": "5.3.3",
-    "set": "A"
-  },
-  "17": {
-    "answer": "c",
-    "section": "4.4.3",
     "set": "A"
   },
   "37": {
@@ -169,29 +184,14 @@
     "section": "5.4.1",
     "set": "A"
   },
-  "18": {
-    "answer": "b",
-    "section": "4.5.1",
-    "set": "A"
-  },
   "38": {
     "answer": "c",
     "section": "5.5.1",
     "set": "A"
   },
-  "19": {
-    "answer": "d",
-    "section": "5.1.1",
-    "set": "A"
-  },
   "39": {
     "answer": "c",
     "section": "6.1.1",
-    "set": "A"
-  },
-  "20": {
-    "answer": "b",
-    "section": "5.1.4",
     "set": "A"
   },
   "40": {
@@ -204,19 +204,9 @@
     "section": "1.2.1",
     "set": "B"
   },
-  "121": {
-    "answer": "d",
-    "section": "4.2.2",
-    "set": "B"
-  },
   "102": {
     "answer": "b",
     "section": "1.2.2",
-    "set": "B"
-  },
-  "122": {
-    "answer": "b",
-    "section": "4.2.3",
     "set": "B"
   },
   "103": {
@@ -224,19 +214,9 @@
     "section": "1.3.1",
     "set": "B"
   },
-  "123": {
-    "answer": "c",
-    "section": "4.2.4",
-    "set": "B"
-  },
   "104": {
     "answer": "a",
     "section": "1.4.1",
-    "set": "B"
-  },
-  "124": {
-    "answer": "b",
-    "section": "4.3.1",
     "set": "B"
   },
   "105": {
@@ -244,19 +224,9 @@
     "section": "1.4.2",
     "set": "B"
   },
-  "125": {
-    "answer": "c",
-    "section": "4.3.2",
-    "set": "B"
-  },
   "106": {
     "answer": "b",
     "section": "1.4.4",
-    "set": "B"
-  },
-  "126": {
-    "answer": "a,e",
-    "section": "4.4.2",
     "set": "B"
   },
   "107": {
@@ -264,19 +234,9 @@
     "section": "1.5.1",
     "set": "B"
   },
-  "127": {
-    "answer": "d",
-    "section": "4.4.3",
-    "set": "B"
-  },
   "108": {
     "answer": "d",
     "section": "1.5.2",
-    "set": "B"
-  },
-  "128": {
-    "answer": "b",
-    "section": "4.5.2",
     "set": "B"
   },
   "109": {
@@ -284,19 +244,9 @@
     "section": "2.1.1",
     "set": "B"
   },
-  "129": {
-    "answer": "d",
-    "section": "4.5.3",
-    "set": "B"
-  },
   "110": {
     "answer": "b",
     "section": "2.1.2",
-    "set": "B"
-  },
-  "130": {
-    "answer": "a",
-    "section": "5.1.3",
     "set": "B"
   },
   "111": {
@@ -304,19 +254,9 @@
     "section": "2.1.3",
     "set": "B"
   },
-  "131": {
-    "answer": "b",
-    "section": "5.1.4",
-    "set": "B"
-  },
   "112": {
     "answer": "b",
     "section": "2.1.4",
-    "set": "B"
-  },
-  "132": {
-    "answer": "b",
-    "section": "5.1.5",
     "set": "B"
   },
   "113": {
@@ -324,19 +264,9 @@
     "section": "2.2.1",
     "set": "B"
   },
-  "133": {
-    "answer": "d",
-    "section": "5.1.7",
-    "set": "B"
-  },
   "114": {
     "answer": "d",
     "section": "2.2.3",
-    "set": "B"
-  },
-  "134": {
-    "answer": "c",
-    "section": "5.2.4",
     "set": "B"
   },
   "115": {
@@ -344,19 +274,9 @@
     "section": "3.1.3",
     "set": "B"
   },
-  "135": {
-    "answer": "a",
-    "section": "5.3.1",
-    "set": "B"
-  },
   "116": {
     "answer": "c",
     "section": "3.2.1",
-    "set": "B"
-  },
-  "136": {
-    "answer": "a",
-    "section": "5.3.3",
     "set": "B"
   },
   "117": {
@@ -364,19 +284,9 @@
     "section": "3.2.2",
     "set": "B"
   },
-  "137": {
-    "answer": "a",
-    "section": "5.4.1",
-    "set": "B"
-  },
   "118": {
     "answer": "c",
     "section": "3.2.3",
-    "set": "B"
-  },
-  "138": {
-    "answer": "b",
-    "section": "5.5.1",
     "set": "B"
   },
   "119": {
@@ -384,14 +294,104 @@
     "section": "4.1.1",
     "set": "B"
   },
-  "139": {
-    "answer": "c",
-    "section": "6.1.1",
-    "set": "B"
-  },
   "120": {
     "answer": "a",
     "section": "4.2.1",
+    "set": "B"
+  },
+  "121": {
+    "answer": "d",
+    "section": "4.2.2",
+    "set": "B"
+  },
+  "122": {
+    "answer": "b",
+    "section": "4.2.3",
+    "set": "B"
+  },
+  "123": {
+    "answer": "c",
+    "section": "4.2.4",
+    "set": "B"
+  },
+  "124": {
+    "answer": "b",
+    "section": "4.3.1",
+    "set": "B"
+  },
+  "125": {
+    "answer": "c",
+    "section": "4.3.2",
+    "set": "B"
+  },
+  "126": {
+    "answer": "a,e",
+    "section": "4.4.2",
+    "set": "B"
+  },
+  "127": {
+    "answer": "d",
+    "section": "4.4.3",
+    "set": "B"
+  },
+  "128": {
+    "answer": "b",
+    "section": "4.5.2",
+    "set": "B"
+  },
+  "129": {
+    "answer": "d",
+    "section": "4.5.3",
+    "set": "B"
+  },
+  "130": {
+    "answer": "a",
+    "section": "5.1.3",
+    "set": "B"
+  },
+  "131": {
+    "answer": "b",
+    "section": "5.1.4",
+    "set": "B"
+  },
+  "132": {
+    "answer": "b",
+    "section": "5.1.5",
+    "set": "B"
+  },
+  "133": {
+    "answer": "d",
+    "section": "5.1.7",
+    "set": "B"
+  },
+  "134": {
+    "answer": "c",
+    "section": "5.2.4",
+    "set": "B"
+  },
+  "135": {
+    "answer": "a",
+    "section": "5.3.1",
+    "set": "B"
+  },
+  "136": {
+    "answer": "a",
+    "section": "5.3.3",
+    "set": "B"
+  },
+  "137": {
+    "answer": "a",
+    "section": "5.4.1",
+    "set": "B"
+  },
+  "138": {
+    "answer": "b",
+    "section": "5.5.1",
+    "set": "B"
+  },
+  "139": {
+    "answer": "c",
+    "section": "6.1.1",
     "set": "B"
   },
   "140": {
@@ -404,19 +404,9 @@
     "section": "1.1.1",
     "set": "C"
   },
-  "221": {
-    "answer": "d",
-    "section": "4.2.2",
-    "set": "C"
-  },
   "202": {
     "answer": "c",
     "section": "1.1.2",
-    "set": "C"
-  },
-  "222": {
-    "answer": "d",
-    "section": "4.2.3",
     "set": "C"
   },
   "203": {
@@ -424,19 +414,9 @@
     "section": "1.3.1",
     "set": "C"
   },
-  "223": {
-    "answer": "a",
-    "section": "4.2.4",
-    "set": "C"
-  },
   "204": {
     "answer": "b,e",
     "section": "1.4.1",
-    "set": "C"
-  },
-  "224": {
-    "answer": "c",
-    "section": "4.3.2",
     "set": "C"
   },
   "205": {
@@ -444,19 +424,9 @@
     "section": "1.4.3",
     "set": "C"
   },
-  "225": {
-    "answer": "a",
-    "section": "4.3.3",
-    "set": "C"
-  },
   "206": {
     "answer": "c",
     "section": "1.4.5",
-    "set": "C"
-  },
-  "226": {
-    "answer": "b",
-    "section": "4.4.1",
     "set": "C"
   },
   "207": {
@@ -464,19 +434,9 @@
     "section": "1.5.2",
     "set": "C"
   },
-  "227": {
-    "answer": "d",
-    "section": "4.4.3",
-    "set": "C"
-  },
   "208": {
     "answer": "a",
     "section": "1.5.3",
-    "set": "C"
-  },
-  "228": {
-    "answer": "b",
-    "section": "4.5.2",
     "set": "C"
   },
   "209": {
@@ -484,19 +444,9 @@
     "section": "2.1.2",
     "set": "C"
   },
-  "229": {
-    "answer": "d",
-    "section": "4.5.3",
-    "set": "C"
-  },
   "210": {
     "answer": "d",
     "section": "2.1.3",
-    "set": "C"
-  },
-  "230": {
-    "answer": "a",
-    "section": "5.1.1",
     "set": "C"
   },
   "211": {
@@ -504,19 +454,9 @@
     "section": "2.1.5",
     "set": "C"
   },
-  "231": {
-    "answer": "c",
-    "section": "5.1.4",
-    "set": "C"
-  },
   "212": {
     "answer": "c",
     "section": "2.1.6",
-    "set": "C"
-  },
-  "232": {
-    "answer": "a",
-    "section": "5.1.5",
     "set": "C"
   },
   "213": {
@@ -524,19 +464,9 @@
     "section": "2.2.1",
     "set": "C"
   },
-  "233": {
-    "answer": "b",
-    "section": "5.1.6",
-    "set": "C"
-  },
   "214": {
     "answer": "b",
     "section": "2.2.3",
-    "set": "C"
-  },
-  "234": {
-    "answer": "d",
-    "section": "5.1.7",
     "set": "C"
   },
   "215": {
@@ -544,19 +474,9 @@
     "section": "3.1.3",
     "set": "C"
   },
-  "235": {
-    "answer": "c",
-    "section": "5.2.3",
-    "set": "C"
-  },
   "216": {
     "answer": "a",
     "section": "3.2.1",
-    "set": "C"
-  },
-  "236": {
-    "answer": "b",
-    "section": "5.3.2",
     "set": "C"
   },
   "217": {
@@ -564,19 +484,9 @@
     "section": "3.2.4",
     "set": "C"
   },
-  "237": {
-    "answer": "d",
-    "section": "5.4.1",
-    "set": "C"
-  },
   "218": {
     "answer": "b",
     "section": "3.2.5",
-    "set": "C"
-  },
-  "238": {
-    "answer": "b",
-    "section": "5.5.1",
     "set": "C"
   },
   "219": {
@@ -584,14 +494,104 @@
     "section": "4.1.1",
     "set": "C"
   },
-  "239": {
-    "answer": "d",
-    "section": "6.1.1",
-    "set": "C"
-  },
   "220": {
     "answer": "a",
     "section": "4.2.1",
+    "set": "C"
+  },
+  "221": {
+    "answer": "d",
+    "section": "4.2.2",
+    "set": "C"
+  },
+  "222": {
+    "answer": "d",
+    "section": "4.2.3",
+    "set": "C"
+  },
+  "223": {
+    "answer": "a",
+    "section": "4.2.4",
+    "set": "C"
+  },
+  "224": {
+    "answer": "c",
+    "section": "4.3.2",
+    "set": "C"
+  },
+  "225": {
+    "answer": "a",
+    "section": "4.3.3",
+    "set": "C"
+  },
+  "226": {
+    "answer": "b",
+    "section": "4.4.1",
+    "set": "C"
+  },
+  "227": {
+    "answer": "d",
+    "section": "4.4.3",
+    "set": "C"
+  },
+  "228": {
+    "answer": "b",
+    "section": "4.5.2",
+    "set": "C"
+  },
+  "229": {
+    "answer": "d",
+    "section": "4.5.3",
+    "set": "C"
+  },
+  "230": {
+    "answer": "a",
+    "section": "5.1.1",
+    "set": "C"
+  },
+  "231": {
+    "answer": "c",
+    "section": "5.1.4",
+    "set": "C"
+  },
+  "232": {
+    "answer": "a",
+    "section": "5.1.5",
+    "set": "C"
+  },
+  "233": {
+    "answer": "b",
+    "section": "5.1.6",
+    "set": "C"
+  },
+  "234": {
+    "answer": "d",
+    "section": "5.1.7",
+    "set": "C"
+  },
+  "235": {
+    "answer": "c",
+    "section": "5.2.3",
+    "set": "C"
+  },
+  "236": {
+    "answer": "b",
+    "section": "5.3.2",
+    "set": "C"
+  },
+  "237": {
+    "answer": "d",
+    "section": "5.4.1",
+    "set": "C"
+  },
+  "238": {
+    "answer": "b",
+    "section": "5.5.1",
+    "set": "C"
+  },
+  "239": {
+    "answer": "d",
+    "section": "6.1.1",
     "set": "C"
   },
   "240": {
@@ -604,19 +604,9 @@
     "section": "1.1.1",
     "set": "D"
   },
-  "321": {
-    "answer": "c",
-    "section": "4.2.2",
-    "set": "D"
-  },
   "302": {
     "answer": "c",
     "section": "1.2.3",
-    "set": "D"
-  },
-  "322": {
-    "answer": "a",
-    "section": "4.2.3",
     "set": "D"
   },
   "303": {
@@ -624,19 +614,9 @@
     "section": "1.3.1",
     "set": "D"
   },
-  "323": {
-    "answer": "b",
-    "section": "4.2.4",
-    "set": "D"
-  },
   "304": {
     "answer": "b",
     "section": "1.4.1",
-    "set": "D"
-  },
-  "324": {
-    "answer": "c",
-    "section": "4.3.1",
     "set": "D"
   },
   "305": {
@@ -644,19 +624,9 @@
     "section": "1.4.3",
     "set": "D"
   },
-  "325": {
-    "answer": "a",
-    "section": "4.3.3",
-    "set": "D"
-  },
   "306": {
     "answer": "d",
     "section": "1.4.5",
-    "set": "D"
-  },
-  "326": {
-    "answer": "c",
-    "section": "4.4.1",
     "set": "D"
   },
   "307": {
@@ -664,19 +634,9 @@
     "section": "1.5.2",
     "set": "D"
   },
-  "327": {
-    "answer": "d",
-    "section": "4.4.2",
-    "set": "D"
-  },
   "308": {
     "answer": "b",
     "section": "1.5.3",
-    "set": "D"
-  },
-  "328": {
-    "answer": "d",
-    "section": "4.5.1",
     "set": "D"
   },
   "309": {
@@ -684,19 +644,9 @@
     "section": "2.1.2",
     "set": "D"
   },
-  "329": {
-    "answer": "a",
-    "section": "4.5.3",
-    "set": "D"
-  },
   "310": {
     "answer": "a",
     "section": "2.1.3",
-    "set": "D"
-  },
-  "330": {
-    "answer": "b,d",
-    "section": "5.1.3",
     "set": "D"
   },
   "311": {
@@ -704,19 +654,9 @@
     "section": "2.1.4",
     "set": "D"
   },
-  "331": {
-    "answer": "a",
-    "section": "5.1.4",
-    "set": "D"
-  },
   "312": {
     "answer": "b",
     "section": "2.1.6",
-    "set": "D"
-  },
-  "332": {
-    "answer": "b",
-    "section": "5.1.5",
     "set": "D"
   },
   "313": {
@@ -724,19 +664,9 @@
     "section": "2.2.2",
     "set": "D"
   },
-  "333": {
-    "answer": "c",
-    "section": "5.1.7",
-    "set": "D"
-  },
   "314": {
     "answer": "b",
     "section": "2.3.1",
-    "set": "D"
-  },
-  "334": {
-    "answer": "b",
-    "section": "5.2.1",
     "set": "D"
   },
   "315": {
@@ -744,19 +674,9 @@
     "section": "3.1.1",
     "set": "D"
   },
-  "335": {
-    "answer": "b,e",
-    "section": "5.2.2",
-    "set": "D"
-  },
   "316": {
     "answer": "c",
     "section": "3.1.2",
-    "set": "D"
-  },
-  "336": {
-    "answer": "c",
-    "section": "5.3.2",
     "set": "D"
   },
   "317": {
@@ -764,19 +684,9 @@
     "section": "3.2.2",
     "set": "D"
   },
-  "337": {
-    "answer": "d",
-    "section": "5.4.1",
-    "set": "D"
-  },
   "318": {
     "answer": "b",
     "section": "3.2.3",
-    "set": "D"
-  },
-  "338": {
-    "answer": "a",
-    "section": "5.5.1",
     "set": "D"
   },
   "319": {
@@ -784,14 +694,104 @@
     "section": "4.1.1",
     "set": "D"
   },
-  "339": {
-    "answer": "b",
-    "section": "6.1.1",
-    "set": "D"
-  },
   "320": {
     "answer": "b,e",
     "section": "4.2.1",
+    "set": "D"
+  },
+  "321": {
+    "answer": "c",
+    "section": "4.2.2",
+    "set": "D"
+  },
+  "322": {
+    "answer": "a",
+    "section": "4.2.3",
+    "set": "D"
+  },
+  "323": {
+    "answer": "b",
+    "section": "4.2.4",
+    "set": "D"
+  },
+  "324": {
+    "answer": "c",
+    "section": "4.3.1",
+    "set": "D"
+  },
+  "325": {
+    "answer": "a",
+    "section": "4.3.3",
+    "set": "D"
+  },
+  "326": {
+    "answer": "c",
+    "section": "4.4.1",
+    "set": "D"
+  },
+  "327": {
+    "answer": "d",
+    "section": "4.4.2",
+    "set": "D"
+  },
+  "328": {
+    "answer": "d",
+    "section": "4.5.1",
+    "set": "D"
+  },
+  "329": {
+    "answer": "a",
+    "section": "4.5.3",
+    "set": "D"
+  },
+  "330": {
+    "answer": "b,d",
+    "section": "5.1.3",
+    "set": "D"
+  },
+  "331": {
+    "answer": "a",
+    "section": "5.1.4",
+    "set": "D"
+  },
+  "332": {
+    "answer": "b",
+    "section": "5.1.5",
+    "set": "D"
+  },
+  "333": {
+    "answer": "c",
+    "section": "5.1.7",
+    "set": "D"
+  },
+  "334": {
+    "answer": "b",
+    "section": "5.2.1",
+    "set": "D"
+  },
+  "335": {
+    "answer": "b,e",
+    "section": "5.2.2",
+    "set": "D"
+  },
+  "336": {
+    "answer": "c",
+    "section": "5.3.2",
+    "set": "D"
+  },
+  "337": {
+    "answer": "d",
+    "section": "5.4.1",
+    "set": "D"
+  },
+  "338": {
+    "answer": "a",
+    "section": "5.5.1",
+    "set": "D"
+  },
+  "339": {
+    "answer": "b",
+    "section": "6.1.1",
     "set": "D"
   },
   "340": {

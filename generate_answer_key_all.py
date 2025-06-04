@@ -1,58 +1,61 @@
-import fitz
-import re
+import pdfplumber
 import json
 import os
 
-# Each tuple: (PDF path, offset, set label)
+# Files and offsets
 SET_FILES = [
-    ("Tests/ISTQB_CTFL_v4.0_Sample-Exam-A-Answers_v1.7.pdf", 0, "A"),
-    ("Tests/ISTQB_CTFL_v4.0_Sample-Exam-B-Answers_v1.7.pdf", 100, "B"),
-    ("Tests/ISTQB_CTFL_v4.0_Sample-Exam-C-Answers_v1.6.pdf", 200, "C"),
-    ("Tests/ISTQB_CTFL_v4.0_Sample-Exam-D-Answers_v1.5.pdf", 300, "D"),
+    ("ISTQB_CTFL_v4.0_Sample-Exam-A-Answers_v1.7.pdf", 0, "A"),
+    ("ISTQB_CTFL_v4.0_Sample-Exam-B-Answers_v1.7.pdf", 100, "B"),
+    ("ISTQB_CTFL_v4.0_Sample-Exam-C-Answers_v1.6.pdf", 200, "C"),
+    ("ISTQB_CTFL_v4.0_Sample-Exam-D-Answers_v1.5.pdf", 300, "D"),
 ]
 
-def extract_text(filepath):
-    if not os.path.exists(filepath):
-        raise FileNotFoundError(f"❌ File not found: {filepath}")
-    doc = fitz.open(filepath)
-    return "\n".join(page.get_text() for page in doc)
+base_dir = "Tests"  # path to folder with your PDFs
 
-def extract_answer_data(text, offset, set_label):
-    pattern = re.compile(r"(\d{1,2})\s+([a-d](?:,\s*[a-e])?)\s+FL-([\d.]+)", re.IGNORECASE)
+def extract_from_table(pdf_path, offset, set_label):
     answers = {}
-
-    for match in pattern.finditer(text):
-        q_raw = int(match.group(1))
-        answer = match.group(2).replace(" ", "").lower()
-        section = match.group(3).strip()
-
-        q_number = q_raw + offset
-        answers[q_number] = {
-            "answer": answer,
-            "section": section,
-            "set": set_label
-        }
-
+    with pdfplumber.open(pdf_path) as pdf:
+        for page in pdf.pages:
+            tables = page.extract_tables()
+            for table in tables:
+                for row in table:
+                    if not row or not row[0]:
+                        continue
+                    try:
+                        qnum_raw = int(row[0].strip())
+                        answer = row[1].strip().lower().replace(" ", "")
+                        section = row[3].strip().replace("FL-", "")
+                        qnum = str(qnum_raw + offset)
+                        answers[qnum] = {
+                            "answer": answer,
+                            "section": section,
+                            "set": set_label
+                        }
+                    except (ValueError, IndexError):
+                        continue
     return answers
 
 def main():
     all_answers = {}
 
-    for path, offset, set_label in SET_FILES:
-        print(f"📄 Extracting Set {set_label} from: {path}")
-        try:
-            text = extract_text(path)
-            answers = extract_answer_data(text, offset, set_label)
-            print(f"✅ Found {len(answers)} entries for Set {set_label}")
-            all_answers.update(answers)
-        except Exception as e:
-            print(f"❌ Failed to extract from {path}: {e}")
+    for filename, offset, set_label in SET_FILES:
+        full_path = os.path.join(base_dir, filename)
+        if not os.path.exists(full_path):
+            print(f"❌ Missing file: {full_path}")
+            continue
 
-    # Save to JSON
+        print(f"📄 Extracting from {filename} (Set {set_label})...")
+        try:
+            extracted = extract_from_table(full_path, offset, set_label)
+            print(f"✅ Found {len(extracted)} answers in Set {set_label}")
+            all_answers.update(extracted)
+        except Exception as e:
+            print(f"❌ Failed to extract from {filename}: {e}")
+
     with open("answer_key_all.json", "w", encoding="utf-8") as f:
         json.dump(all_answers, f, indent=2, ensure_ascii=False)
 
-    print(f"\n✅ Done! Saved full answer key to answer_key_all.json ({len(all_answers)} total questions)")
+    print(f"\n🎉 All done! {len(all_answers)} answers saved to answer_key_all.json")
 
 if __name__ == "__main__":
     main()
