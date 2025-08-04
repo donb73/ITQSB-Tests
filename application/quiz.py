@@ -3,7 +3,7 @@ import random
 from datetime import datetime
 
 def load_questions():
-    with open("questions.json", "r", encoding="utf-8") as f:
+    with open("../processed/questions.json", "r", encoding="utf-8") as f:
         return json.load(f)
 
 def get_user_filter(questions):

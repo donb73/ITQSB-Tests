@@ -1,4 +1,8 @@
-Testing tool for ITQSB Foundation test.
-Based off the practice tests.
-Includes tools to import test questions and answer keys 
-Reporting tool for missed question with refrence to Sylbus sections for each missed question
+Randomized quizzes from ISTQB question banks (Sets A–D).
+Question filtering by set or full combined exam mode.
+Immediate feedback with correct answer display.
+Score tracking and percentage results.
+Review mode for revisiting incorrect answers.
+Supports ISTQB-style diagrams/images for visual questions.
+Lightweight and fast – runs locally or deployable to Streamlit Cloud.
+

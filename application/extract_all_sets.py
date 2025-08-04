@@ -4,7 +4,7 @@ import json
 import os
 
 # Load the full answer key
-with open("answer_key_all.json", "r", encoding="utf-8") as f:
+with open("../processed/answer_key_all.json", "r", encoding="utf-8") as f:
     answer_key = json.load(f)
 
 # Define all test sets
@@ -15,7 +15,7 @@ SET_FILES = [
     ("ISTQB_CTFL_v4.0_Sample-Exam-D-Questions_v1.5.pdf", 300, "D"),
 ]
 
-base_dir = "Tests"
+base_dir = "../questions"
 all_questions = []
 
 def clean_option_text(text):
@@ -123,7 +123,7 @@ def main():
         print(f"✅ Found {len(extracted)} questions from Set {set_label}")
         all_questions.extend(extracted)
 
-    with open("questions.json", "w", encoding="utf-8") as f:
+    with open("../processed/questions.json", "w", encoding="utf-8") as f:
         json.dump(all_questions, f, indent=2, ensure_ascii=False)
 
     print(f"\n🎉 All done! Wrote {len(all_questions)} questions to questions.json")

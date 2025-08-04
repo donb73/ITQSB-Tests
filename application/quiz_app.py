@@ -8,7 +8,7 @@ import random
 
 @st.cache_data
 def load_questions():
-    with open("questions.json", encoding="utf-8") as f:
+    with open("../processed/questions.json", encoding="utf-8") as f:
         all_questions = json.load(f)
 
     order_mode = st.session_state.get("order_mode", "Random")

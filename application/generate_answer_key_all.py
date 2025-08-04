@@ -10,7 +10,7 @@ SET_FILES = [
     ("ISTQB_CTFL_v4.0_Sample-Exam-D-Answers_v1.5.pdf", 300, "D"),
 ]
 
-base_dir = "Tests"  # path to folder with your PDFs
+base_dir = "../questions"  # path to folder with your PDFs
 
 def extract_from_table(pdf_path, offset, set_label):
     answers = {}
@@ -52,7 +52,7 @@ def main():
         except Exception as e:
             print(f"❌ Failed to extract from {filename}: {e}")
 
-    with open("answer_key_all.json", "w", encoding="utf-8") as f:
+    with open("../processed/answer_key_all.json", "w", encoding="utf-8") as f:
         json.dump(all_answers, f, indent=2, ensure_ascii=False)
 
     print(f"\n🎉 All done! {len(all_answers)} answers saved to answer_key_all.json")
